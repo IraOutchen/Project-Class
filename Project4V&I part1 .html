@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/Wasso86/meshek18/main/%D7%9C%D7%95%D7%92%D7%95-%D7%9E%D7%A9%D7%A7-%D7%94%D7%97%D7%9C%D7%91.ico">
+    <title>Finl Projekt Irina and Vasiliy 4 </title>
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Thank you for your request";
+      
+          alert("Your request was sent to the store");
+      }
+      </script>
+
+    <script>
+        function handleClick() {
+            alert("Button Clicked!");
+        }
+
+        function handleMouseOver() {
+            document.getElementById("hotspot").innerHTML = "THANK YOU!";
+        }
+
+        function handleMouseOut() {
+            document.getElementById("hotspot").innerHTML = "JB TEAM";
+        }
+
+        function handleFormFocus() {
+            alert("Input field focused!");
+        }
+
+        function handleFormChange() {
+            alert("Input value changed!");
+        }
+
+        function handleLoad() {
+            console.log("Page loaded!");
+        }
+
+        function handleUnload() {
+            console.log("Page unloaded!");
+        }
+    </script>
+	<style>
+/* Base for label styling */
+	[type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked {
+		position: absolute;
+		left: 0;
+		opacity: 0.01;
+	}
+	[type="checkbox"]:not(:checked) + label,
+	[type="checkbox"]:checked + label {
+		position: relative;
+		padding-left: 2.3em;
+		font-size: 1.05em;
+		line-height: 1.7;
+		cursor: pointer;
+	}
+
+	/* checkbox aspect */
+	[type="checkbox"]:not(:checked) + label:before,
+	[type="checkbox"]:checked + label:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 1.4em;
+		height: 1.4em;
+		border: 1px solid #aaa;
+		background: #FFF;
+		border-radius: .2em;
+		box-shadow: inset 0 1px 3px rgba(0,0,0, .1), 0 0 0 rgba(203, 34, 237, .2);
+		-webkit-transition: all .275s;
+				transition: all .275s;
+	}
+
+	/* checked mark aspect */
+	[type="checkbox"]:not(:checked) + label:after,
+	[type="checkbox"]:checked + label:after {
+		content: '✕';
+		position: absolute;
+		top: .525em;
+		left: .18em;
+		font-size: 1.375em;
+		color: #2292ed;
+		line-height: 0;
+		-webkit-transition: all .2s;
+				transition: all .2s;
+	}
+
+	/* checked mark aspect changes */
+	[type="checkbox"]:not(:checked) + label:after {
+		opacity: 0;
+		-webkit-transform: scale(0) rotate(45deg);
+				transform: scale(0) rotate(45deg);
+	}
+
+	[type="checkbox"]:checked + label:after {
+		opacity: 1;
+		-webkit-transform: scale(1) rotate(0);
+				transform: scale(1) rotate(0);
+	}
+
+	/* Disabled checkbox */
+	[type="checkbox"]:disabled:not(:checked) + label:before,
+	[type="checkbox"]:disabled:checked + label:before {
+		box-shadow: none;
+		border-color: #bbb;
+		background-color: #e9e9e9;
+	}
+
+	[type="checkbox"]:disabled:checked + label:after {
+		color: #777;
+	}
+
+	[type="checkbox"]:disabled + label {
+		color: #aaa;
+	}
+
+	/* Accessibility */
+	[type="checkbox"]:checked:focus + label:before,
+	[type="checkbox"]:not(:checked):focus + label:before {
+		box-shadow: inset 0 1px 3px rgba(0,0,0, .1), 0 0 0 6px rgba(203, 34, 237, .2);
+	}
+
+
+
+
+/*
+ * Useless styles, just for demo design
+ */
+body {
+  font-family: "Open Sans", "Segoe WP", "Segoe UI", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #34495E;
+    background: #FCFDFD;
+}
+
+a[href^="https://www.creativejuiz"] {
+  color: #34495E;
+  text-decoration: underline;
+}
+
+h1 {
+  margin-top: 1em;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 2em;
+  color: #092d63;
+  font-weight: normal;
+}
+
+
+form {
+  width: 120px;
+  margin: 0 auto 55px;
+  text-align: left;
+}
+
+div p:first-child {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+p { 
+  color: #aaa;
+}
+
+p a {
+  color: inherit;
+}
+
+p + p {
+  margin-top: 3em;
+}
+
+form p {
+  margin: 15px 0;
+  color: #34495E;
+}
+
+a[href^="https://twitter.com"] {
+  color: #1da1f2;
+}
+
+.btn.btn {
+  display: inline-block;
+  padding: 8px 24px;
+  text-decoration: none;
+  border-radius: 40px;
+  background: #34495E;
+  color: #F2F2F2;
+  transition: all .4s;
+}
+
+.btn.btn:hover,
+.btn.btn:focus {
+  background: #000;
+}
+</style>
+
+</head>
+<body onload="handleLoad()" onunload="handleUnload()">
+    <h1 class="header">Cookery</h1>
+    <div class="content">
+        <p>Cookery is GOURMET ISRAEL advisor. </p>
+      <br>
+        <img src="https://cdn.leonardo.ai/users/958a357b-f1f2-46de-90b6-b0a692e9262b/generations/95535d23-a1db-448a-96bf-40658448f605/Absolute_Reality_v16_Kusmi_Tea_a_French_tea_brand_known_for_ar_1.jpg" alt="F16" width="500" height="300">
+
+        <br>
+        <br>
+
+        <input type="radio" name="radioButtons" value="What  "> What  
+        <input type="radio" name="radioButtons" value="Who  "> Who  
+		<input type="radio" name="radioButtons" value="WHere"> Where
+
+
+
+<br>
+<br>
+<br>
+
+
+<img src="https://raw.githubusercontent.com/IraOutchen/Project-Class/main/BestSellersKusmi.jpg" width="400" height="400">
+<img src="https://raw.githubusercontent.com/IraOutchen/Project-Class/main/BestChef.jpg" width="400" height="400">
+<img src="https://raw.githubusercontent.com/IraOutchen/Project-Class/main/Malagoli.jpg" width="400" height="400">
+
+<br>
+<br>
+
+
+<p> WHAT is new on the market? Great products are already available in Israel.  </p>
+<p> WHO are the best chefs? Michelin stars can be awarded to the finest restaurants in Tel Aviv. </p>
+<p> WHERE can you travel to enjoy unique artisanal products and meet the owners?</p>
+<br>
+<br>
+
+<input type="checkbox" id="product1" name="product1" value="Buy">
+<label for="product1"> I want to Buy</label><br>
+<input type="checkbox" id="product2" name="product2" value="Taste">
+<label for="product2"> I want to Taste</label><br>
+<input type="checkbox" id="product3" name="product3" value="Visit">
+<label for="product3"> I want to Visit</label><br>
+
+
+	</div>
+   
+<br>
+<br>
+<label for="Option">Please Choose:</label>
+    <select name="Option" id="Option">
+            <option value="Option 1">Product</option>
+            <option value="Option 2">Chef Name</option>
+            <option value="Option 3">Place to visit</option>
+          </select>
+		  
+<br>
+<br>	
+
+<button onclick="myFunction()">Submit your request</button>
+<p id="demo"></p>
+
+<br>
+<br>
+
+<p> Enjoy Cookery with KUSMITEA Israel</p>
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/aVLXc__yiSI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<br>
+<br>
+
+
+        <h2>External links "WHAT"</h2>
+        <p><a href="https://www.kusmitea.co.il/">KUSMITEA Israel</a></p>
+  
+        <h2>External links "WHO"</h2>
+        <p><a href="https://jrobuchon.com/chefs">Robuchon Israel</a></p>
+        
+        <h2> External links "WHERE"</h2>
+        <p><a href="https://www.casamalagoli.it/">Acetaia Malagoli</a></p>
+
+        
+
+
+    </div>
+	
+    <br>
+    <br>
+            <br>
+            <br>
+    
+  
+
+            <div id="hotspot" onmouseover="handleMouseOver()" onmouseout="handleMouseOut()">THANKS TO BE WITH US 10!!!! MONTHS:)) </div>
+    
+            <ul style="height: 100px; overflow: auto;">
+                <li>Assaf Ben David</li>
+                <li>Liora Levi</li>
+                <li>Moran Goldshtein</li>
+                <li>Hadas Lavon</li>
+                <li>Guy Nissim</li>
+                <li>Nimrod Hasid</li>
+                <li>Cleaning team</li>
+                <li>Guards</li>
+            </ul>
+    <br>
+    <br>
+    
+            <div id="hotspot" onmouseover="handleMouseOver()" onmouseout="handleMouseOut()">THANK YOU!!!</div>
+            <br>
+            <br>
+            <br>
+
+
+
+
+
+</body>
+</html>
+ 
+
